@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btn_atof"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:text="从Activity到Fragment传值"/>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.myproject.intent.AFragment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="194dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>

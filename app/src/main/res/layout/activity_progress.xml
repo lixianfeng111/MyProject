@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.example.myproject.progressbar.MyProgressBar
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/myprogress_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="0"
+            android:padding="5dp"
+            app:progress_reach="@color/teal_200"
+            app:progress_unreach="@color/purple_500"
+            app:progress_text_color="@color/teal_200"
+            app:progress_text_size="16sp"
+            android:layout_marginTop="30dp"/>
+
+        <com.example.myproject.progressbar.MyProgressBar
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/myprogress_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="100"
+            android:padding="5dp"
+            app:progress_reach="@color/teal_200"
+            app:progress_unreach="@color/hui"
+            app:progress_text_color="@color/teal_200"
+            app:progress_text_size="16sp"
+            android:layout_marginTop="30dp"/>
+
+        <com.example.myproject.progressbar.MyRoundProgressBar
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/myprogress_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="20"
+            android:padding="5dp"
+            app:progress_radius="80dp"
+            android:layout_marginTop="30dp"
+            app:progress_text_size="20sp"
+            app:progress_text_color="@color/black"
+            app:progress_reach="@color/black"
+            app:progress_unreach="@color/purple_200"
+            />
+
+        <com.example.myproject.progressbar.MyRoundProgressBar
+            android:layout_gravity="end"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/myprogress_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progress="100"
+            android:padding="5dp"
+            app:progress_radius="20dp"
+            android:layout_marginTop="10dp"
+            app:progress_text_size="13sp"
+            app:progress_text_color="@color/blue"
+            app:progress_reach="@color/blue"
+            app:progress_unreach="@color/hui"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".textview.TextViewActivity">
+<!--    <TextView-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:textSize="16sp"-->
+<!--        android:id="@+id/textView"-->
+<!--        android:text=""-->
+<!--        android:layout_width="300dp"-->
+<!--        android:maxLines="2"-->
+<!--        android:ellipsize = "end"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <com.example.myproject.textview.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:text="听见，冬天的离开，我在某年☺某月醒过来，我想我等，我期待，未来却不能因此安排，阴天，傍晚，车窗外，未来有一个人在等待，向左向右向前看，爱要拐几个弯才来。。。。。"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:text="听见，冬天的离开，我在某年☺某月醒过来，我想我等，我期待，未来却不能因此安排，阴天，傍晚，车窗外，未来有一个人在等待，向左向右向前看，爱要拐几个弯才来。。。。。"/>
+</LinearLayout>

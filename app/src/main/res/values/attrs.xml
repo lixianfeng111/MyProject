@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <attr name="progress_reach" format="color"></attr>
+    <attr name="progress_unreach" format="color"></attr>
+    <attr name="progress_reach_height" format="dimension"></attr>
+    <attr name="progress_unreach_height" format="dimension"></attr>
+    <attr name="progress_text_color" format="color"></attr>
+    <attr name="progress_text_size" format="dimension"></attr>
+    <attr name="progress_text_offset" format="dimension"></attr>
+    <attr name="progress_radius" format="dimension"></attr>
+    <declare-styleable name="MyProgressBar">
+        <attr name="progress_reach"></attr>
+        <attr name="progress_unreach"></attr>
+        <attr name="progress_reach_height"></attr>
+        <attr name="progress_unreach_height"></attr>
+        <attr name="progress_text_color" ></attr>
+        <attr name="progress_text_size"></attr>
+        <attr name="progress_text_offset"></attr>
+    </declare-styleable>
+    <declare-styleable name="MyRoundProgressBar">
+        <attr name="progress_radius"></attr>
+        <!--这里是私有属性-->
+    </declare-styleable>
+
+
+<!--    MyCircleProgressBar-->
+    <declare-styleable name="CircleProgressBar">
+        <!--文字大小-->
+        <attr name="text_size" format="dimension"/>
+        <!--文字颜色-->
+        <attr name="text_color" format="color"/>
+        <!--文本-->
+        <attr name="text" format="string"/>
+        <!--变宽宽度-->
+        <attr name="stroke_width" format="integer"/>
+        <!--未走的进度的颜色-->
+        <attr name="normal_color" format="color"/>
+        <!--已走的进度的颜色-->
+        <attr name="progress_color" format="color"/>
+        <!--已走的进度 0-360 -->
+        <attr name="progress" format="integer"/>
+        <!--类型 填充型，还是环形-->
+        <attr name="progress_style" format="enum">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!--底部导航-->
+    <declare-styleable name="TabView" tools:ignore="MissingDefaultResource">
+        <attr name="tab_textViewSelColor"
+            format="reference|color"/>
+        <attr name="tab_textViewUnSelColor"
+            format="reference|color"/>
+        <attr name="tab_tabViewBackgroundColor"
+            format="reference|color"/>
+        <attr name="tab_tabViewHeight"
+            format="dimension"/>
+        <attr name="imageViewTextViewMargin"
+            format="dimension"/>
+        <attr name="tab_textViewSize"
+            format="dimension"/>
+        <attr name="tab_imageViewWidth"
+            format="dimension"/>
+        <attr name="tab_imageViewHeight"
+            format="dimension"/>
+        <attr name="tab_tabViewGravity">
+            <flag name="top" value="0x30" />
+            <flag name="bottom" value="0x50" />
+            <flag name="left" value="0x03" />
+            <flag name="right" value="0x05" />
+        </attr>
+        <attr name="tab_tabViewDefaultPosition"
+            format="integer"/>
+    </declare-styleable>
+</resources>
